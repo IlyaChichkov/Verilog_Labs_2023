@@ -2,7 +2,7 @@
 
 ### Description
 
-Project impliments APB bus over previously made cipher [Lab_1 - Kuznechik cipher]()
+Project impliments APB bus over previously made cipher [Lab_1 - Kuznechik cipher](https://github.com/IlyaChichkov/Verilog_Labs_2023/tree/master/Lab_1%20-%20Kuznechik%20cipher)
 
 ### Software
 
