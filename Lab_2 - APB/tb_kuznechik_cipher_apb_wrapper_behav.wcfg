@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_kuznechik_cipher_apb_wrapper_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="kuznechik_cipher_apb_wrapper_pkg" />
+            <top_module name="tb_kuznechik_cipher_apb_wrapper" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="44413833000fs"></ZoomStartTime>
+      <ZoomEndTime time="44828333001fs"></ZoomEndTime>
+      <Cursor1Time time="44732333000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="242"></NameColumnWidth>
+      <ValueColumnWidth column_width="233"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="3" />
+   <wvobject fp_name="group14" type="group">
+      <obj_property name="label">Testbench</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/pclk_i" type="logic">
+         <obj_property name="ElementShortName">pclk_i</obj_property>
+         <obj_property name="ObjectShortName">pclk_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/presetn_i" type="logic">
+         <obj_property name="ElementShortName">presetn_i</obj_property>
+         <obj_property name="ObjectShortName">presetn_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/paddr_i" type="array">
+         <obj_property name="ElementShortName">paddr_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">paddr_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/psel_i" type="logic">
+         <obj_property name="ElementShortName">psel_i</obj_property>
+         <obj_property name="ObjectShortName">psel_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/penable_i" type="logic">
+         <obj_property name="ElementShortName">penable_i</obj_property>
+         <obj_property name="ObjectShortName">penable_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/pwrite_i" type="logic">
+         <obj_property name="ElementShortName">pwrite_i</obj_property>
+         <obj_property name="ObjectShortName">pwrite_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/pwdata_i" type="array">
+         <obj_property name="ElementShortName">pwdata_i[3:0][7:0]</obj_property>
+         <obj_property name="ObjectShortName">pwdata_i[3:0][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/pstrb_i" type="array">
+         <obj_property name="ElementShortName">pstrb_i[3:0]</obj_property>
+         <obj_property name="ObjectShortName">pstrb_i[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/pready_o" type="logic">
+         <obj_property name="ElementShortName">pready_o</obj_property>
+         <obj_property name="ObjectShortName">pready_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/prdata_o" type="array">
+         <obj_property name="ElementShortName">prdata_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">prdata_o[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/pslverr_o" type="logic">
+         <obj_property name="ElementShortName">pslverr_o</obj_property>
+         <obj_property name="ObjectShortName">pslverr_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/CLK_PERIOD" type="other">
+         <obj_property name="ElementShortName">CLK_PERIOD</obj_property>
+         <obj_property name="ObjectShortName">CLK_PERIOD</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/TEST_TIMEOUT" type="array">
+         <obj_property name="ElementShortName">TEST_TIMEOUT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">TEST_TIMEOUT[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group15" type="group">
+      <obj_property name="label">Wrapper</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/pclk_i" type="logic">
+         <obj_property name="ElementShortName">pclk_i</obj_property>
+         <obj_property name="ObjectShortName">pclk_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/presetn_i" type="logic">
+         <obj_property name="ElementShortName">presetn_i</obj_property>
+         <obj_property name="ObjectShortName">presetn_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/paddr_i" type="array">
+         <obj_property name="ElementShortName">paddr_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">paddr_i[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="vbus538" type="vbus">
+         <obj_property name="label">APB_Address</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+         <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/paddr_i[4]" type="logic">
+            <obj_property name="ElementShortName">[4]</obj_property>
+            <obj_property name="ObjectShortName">[4]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/paddr_i[3]" type="logic">
+            <obj_property name="ElementShortName">[3]</obj_property>
+            <obj_property name="ObjectShortName">[3]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/paddr_i[2]" type="logic">
+            <obj_property name="ElementShortName">[2]</obj_property>
+            <obj_property name="ObjectShortName">[2]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/paddr_i[1]" type="logic">
+            <obj_property name="ElementShortName">[1]</obj_property>
+            <obj_property name="ObjectShortName">[1]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/paddr_i[0]" type="logic">
+            <obj_property name="ElementShortName">[0]</obj_property>
+            <obj_property name="ObjectShortName">[0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/psel_i" type="logic">
+         <obj_property name="ElementShortName">psel_i</obj_property>
+         <obj_property name="ObjectShortName">psel_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/penable_i" type="logic">
+         <obj_property name="ElementShortName">penable_i</obj_property>
+         <obj_property name="ObjectShortName">penable_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/pready_o" type="logic">
+         <obj_property name="ElementShortName">pready_o</obj_property>
+         <obj_property name="ObjectShortName">pready_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/pslverr_o" type="logic">
+         <obj_property name="ElementShortName">pslverr_o</obj_property>
+         <obj_property name="ObjectShortName">pslverr_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_req_i" type="logic">
+         <obj_property name="ElementShortName">cipher_req_i</obj_property>
+         <obj_property name="ObjectShortName">cipher_req_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_ack_i" type="logic">
+         <obj_property name="ElementShortName">cipher_ack_i</obj_property>
+         <obj_property name="ObjectShortName">cipher_ack_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_busy_o" type="logic">
+         <obj_property name="ElementShortName">cipher_busy_o</obj_property>
+         <obj_property name="ObjectShortName">cipher_busy_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/reg_busy" type="array">
+         <obj_property name="ElementShortName">reg_busy[7:0]</obj_property>
+         <obj_property name="ObjectShortName">reg_busy[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_valid_o" type="logic">
+         <obj_property name="ElementShortName">cipher_valid_o</obj_property>
+         <obj_property name="ObjectShortName">cipher_valid_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/reg_valid" type="array">
+         <obj_property name="ElementShortName">reg_valid[7:0]</obj_property>
+         <obj_property name="ObjectShortName">reg_valid[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/reg_rst" type="array">
+         <obj_property name="ElementShortName">reg_rst[7:0]</obj_property>
+         <obj_property name="ObjectShortName">reg_rst[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_reset" type="logic">
+         <obj_property name="ElementShortName">cipher_reset</obj_property>
+         <obj_property name="ObjectShortName">cipher_reset</obj_property>
+      </wvobject>
+      <wvobject fp_name="vbus583" type="vbus">
+         <obj_property name="label">pread_i</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/pwrite_i" type="logic">
+            <obj_property name="ElementShortName">pwrite_i</obj_property>
+            <obj_property name="ObjectShortName">pwrite_i</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group402" type="group">
+         <obj_property name="label">ReadData</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_o" type="array">
+            <obj_property name="ElementShortName">cipher_data_o[127:0]</obj_property>
+            <obj_property name="ObjectShortName">cipher_data_o[127:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/is_addr_reg_out" type="logic">
+            <obj_property name="ElementShortName">is_addr_reg_out</obj_property>
+            <obj_property name="ObjectShortName">is_addr_reg_out</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/reg_data_out" type="array">
+            <obj_property name="ElementShortName">reg_data_out[0:3][31:0]</obj_property>
+            <obj_property name="ObjectShortName">reg_data_out[0:3][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/addr_reg_out" type="logic">
+            <obj_property name="ElementShortName">addr_reg_out</obj_property>
+            <obj_property name="ObjectShortName">addr_reg_out</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/prdata_o" type="array">
+            <obj_property name="ElementShortName">prdata_o[31:0]</obj_property>
+            <obj_property name="ObjectShortName">prdata_o[31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/pwrite_i" type="logic">
+         <obj_property name="ElementShortName">pwrite_i</obj_property>
+         <obj_property name="ObjectShortName">pwrite_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="group369" type="group">
+         <obj_property name="label">WriteData</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/is_addr_reg_in" type="logic">
+            <obj_property name="ElementShortName">is_addr_reg_in</obj_property>
+            <obj_property name="ObjectShortName">is_addr_reg_in</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/pstrb_i" type="array">
+            <obj_property name="ElementShortName">pstrb_i[3:0]</obj_property>
+            <obj_property name="ObjectShortName">pstrb_i[3:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/pwdata_i" type="array">
+            <obj_property name="ElementShortName">pwdata_i[3:0][7:0]</obj_property>
+            <obj_property name="ObjectShortName">pwdata_i[3:0][7:0]</obj_property>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/pwdata_i[3]" type="array">
+               <obj_property name="ElementShortName">[3][7:0]</obj_property>
+               <obj_property name="ObjectShortName">[3][7:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/pwdata_i[2]" type="array">
+               <obj_property name="ElementShortName">[2][7:0]</obj_property>
+               <obj_property name="ObjectShortName">[2][7:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/pwdata_i[1]" type="array">
+               <obj_property name="ElementShortName">[1][7:0]</obj_property>
+               <obj_property name="ObjectShortName">[1][7:0]</obj_property>
+               <obj_property name="isExpanded"></obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/pwdata_i[0]" type="array">
+               <obj_property name="ElementShortName">[0][7:0]</obj_property>
+               <obj_property name="ObjectShortName">[0][7:0]</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/reg_data_in" type="array">
+            <obj_property name="ElementShortName">reg_data_in[0:3][31:0]</obj_property>
+            <obj_property name="ObjectShortName">reg_data_in[0:3][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i" type="array">
+            <obj_property name="ElementShortName">cipher_data_i[127:0]</obj_property>
+            <obj_property name="ObjectShortName">cipher_data_i[127:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="group437" type="group">
+            <obj_property name="label">64_1</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[63]" type="logic">
+               <obj_property name="ElementShortName">[63]</obj_property>
+               <obj_property name="ObjectShortName">[63]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[62]" type="logic">
+               <obj_property name="ElementShortName">[62]</obj_property>
+               <obj_property name="ObjectShortName">[62]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[61]" type="logic">
+               <obj_property name="ElementShortName">[61]</obj_property>
+               <obj_property name="ObjectShortName">[61]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[60]" type="logic">
+               <obj_property name="ElementShortName">[60]</obj_property>
+               <obj_property name="ObjectShortName">[60]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[59]" type="logic">
+               <obj_property name="ElementShortName">[59]</obj_property>
+               <obj_property name="ObjectShortName">[59]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[58]" type="logic">
+               <obj_property name="ElementShortName">[58]</obj_property>
+               <obj_property name="ObjectShortName">[58]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[57]" type="logic">
+               <obj_property name="ElementShortName">[57]</obj_property>
+               <obj_property name="ObjectShortName">[57]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[56]" type="logic">
+               <obj_property name="ElementShortName">[56]</obj_property>
+               <obj_property name="ObjectShortName">[56]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[55]" type="logic">
+               <obj_property name="ElementShortName">[55]</obj_property>
+               <obj_property name="ObjectShortName">[55]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[54]" type="logic">
+               <obj_property name="ElementShortName">[54]</obj_property>
+               <obj_property name="ObjectShortName">[54]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[53]" type="logic">
+               <obj_property name="ElementShortName">[53]</obj_property>
+               <obj_property name="ObjectShortName">[53]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[52]" type="logic">
+               <obj_property name="ElementShortName">[52]</obj_property>
+               <obj_property name="ObjectShortName">[52]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[51]" type="logic">
+               <obj_property name="ElementShortName">[51]</obj_property>
+               <obj_property name="ObjectShortName">[51]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[50]" type="logic">
+               <obj_property name="ElementShortName">[50]</obj_property>
+               <obj_property name="ObjectShortName">[50]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[49]" type="logic">
+               <obj_property name="ElementShortName">[49]</obj_property>
+               <obj_property name="ObjectShortName">[49]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[48]" type="logic">
+               <obj_property name="ElementShortName">[48]</obj_property>
+               <obj_property name="ObjectShortName">[48]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[47]" type="logic">
+               <obj_property name="ElementShortName">[47]</obj_property>
+               <obj_property name="ObjectShortName">[47]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[46]" type="logic">
+               <obj_property name="ElementShortName">[46]</obj_property>
+               <obj_property name="ObjectShortName">[46]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[45]" type="logic">
+               <obj_property name="ElementShortName">[45]</obj_property>
+               <obj_property name="ObjectShortName">[45]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[44]" type="logic">
+               <obj_property name="ElementShortName">[44]</obj_property>
+               <obj_property name="ObjectShortName">[44]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[43]" type="logic">
+               <obj_property name="ElementShortName">[43]</obj_property>
+               <obj_property name="ObjectShortName">[43]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[42]" type="logic">
+               <obj_property name="ElementShortName">[42]</obj_property>
+               <obj_property name="ObjectShortName">[42]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[41]" type="logic">
+               <obj_property name="ElementShortName">[41]</obj_property>
+               <obj_property name="ObjectShortName">[41]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[40]" type="logic">
+               <obj_property name="ElementShortName">[40]</obj_property>
+               <obj_property name="ObjectShortName">[40]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[39]" type="logic">
+               <obj_property name="ElementShortName">[39]</obj_property>
+               <obj_property name="ObjectShortName">[39]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[38]" type="logic">
+               <obj_property name="ElementShortName">[38]</obj_property>
+               <obj_property name="ObjectShortName">[38]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[37]" type="logic">
+               <obj_property name="ElementShortName">[37]</obj_property>
+               <obj_property name="ObjectShortName">[37]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[36]" type="logic">
+               <obj_property name="ElementShortName">[36]</obj_property>
+               <obj_property name="ObjectShortName">[36]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[35]" type="logic">
+               <obj_property name="ElementShortName">[35]</obj_property>
+               <obj_property name="ObjectShortName">[35]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[34]" type="logic">
+               <obj_property name="ElementShortName">[34]</obj_property>
+               <obj_property name="ObjectShortName">[34]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[33]" type="logic">
+               <obj_property name="ElementShortName">[33]</obj_property>
+               <obj_property name="ObjectShortName">[33]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[32]" type="logic">
+               <obj_property name="ElementShortName">[32]</obj_property>
+               <obj_property name="ObjectShortName">[32]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[31]" type="logic">
+               <obj_property name="ElementShortName">[31]</obj_property>
+               <obj_property name="ObjectShortName">[31]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[30]" type="logic">
+               <obj_property name="ElementShortName">[30]</obj_property>
+               <obj_property name="ObjectShortName">[30]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[29]" type="logic">
+               <obj_property name="ElementShortName">[29]</obj_property>
+               <obj_property name="ObjectShortName">[29]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[28]" type="logic">
+               <obj_property name="ElementShortName">[28]</obj_property>
+               <obj_property name="ObjectShortName">[28]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[27]" type="logic">
+               <obj_property name="ElementShortName">[27]</obj_property>
+               <obj_property name="ObjectShortName">[27]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[26]" type="logic">
+               <obj_property name="ElementShortName">[26]</obj_property>
+               <obj_property name="ObjectShortName">[26]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[25]" type="logic">
+               <obj_property name="ElementShortName">[25]</obj_property>
+               <obj_property name="ObjectShortName">[25]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[24]" type="logic">
+               <obj_property name="ElementShortName">[24]</obj_property>
+               <obj_property name="ObjectShortName">[24]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[23]" type="logic">
+               <obj_property name="ElementShortName">[23]</obj_property>
+               <obj_property name="ObjectShortName">[23]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[22]" type="logic">
+               <obj_property name="ElementShortName">[22]</obj_property>
+               <obj_property name="ObjectShortName">[22]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[21]" type="logic">
+               <obj_property name="ElementShortName">[21]</obj_property>
+               <obj_property name="ObjectShortName">[21]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[20]" type="logic">
+               <obj_property name="ElementShortName">[20]</obj_property>
+               <obj_property name="ObjectShortName">[20]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[19]" type="logic">
+               <obj_property name="ElementShortName">[19]</obj_property>
+               <obj_property name="ObjectShortName">[19]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[18]" type="logic">
+               <obj_property name="ElementShortName">[18]</obj_property>
+               <obj_property name="ObjectShortName">[18]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[17]" type="logic">
+               <obj_property name="ElementShortName">[17]</obj_property>
+               <obj_property name="ObjectShortName">[17]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[16]" type="logic">
+               <obj_property name="ElementShortName">[16]</obj_property>
+               <obj_property name="ObjectShortName">[16]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[15]" type="logic">
+               <obj_property name="ElementShortName">[15]</obj_property>
+               <obj_property name="ObjectShortName">[15]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[14]" type="logic">
+               <obj_property name="ElementShortName">[14]</obj_property>
+               <obj_property name="ObjectShortName">[14]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[13]" type="logic">
+               <obj_property name="ElementShortName">[13]</obj_property>
+               <obj_property name="ObjectShortName">[13]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[12]" type="logic">
+               <obj_property name="ElementShortName">[12]</obj_property>
+               <obj_property name="ObjectShortName">[12]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[11]" type="logic">
+               <obj_property name="ElementShortName">[11]</obj_property>
+               <obj_property name="ObjectShortName">[11]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[10]" type="logic">
+               <obj_property name="ElementShortName">[10]</obj_property>
+               <obj_property name="ObjectShortName">[10]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[9]" type="logic">
+               <obj_property name="ElementShortName">[9]</obj_property>
+               <obj_property name="ObjectShortName">[9]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[8]" type="logic">
+               <obj_property name="ElementShortName">[8]</obj_property>
+               <obj_property name="ObjectShortName">[8]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[7]" type="logic">
+               <obj_property name="ElementShortName">[7]</obj_property>
+               <obj_property name="ObjectShortName">[7]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[6]" type="logic">
+               <obj_property name="ElementShortName">[6]</obj_property>
+               <obj_property name="ObjectShortName">[6]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[5]" type="logic">
+               <obj_property name="ElementShortName">[5]</obj_property>
+               <obj_property name="ObjectShortName">[5]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[4]" type="logic">
+               <obj_property name="ElementShortName">[4]</obj_property>
+               <obj_property name="ObjectShortName">[4]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[3]" type="logic">
+               <obj_property name="ElementShortName">[3]</obj_property>
+               <obj_property name="ObjectShortName">[3]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[2]" type="logic">
+               <obj_property name="ElementShortName">[2]</obj_property>
+               <obj_property name="ObjectShortName">[2]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[1]" type="logic">
+               <obj_property name="ElementShortName">[1]</obj_property>
+               <obj_property name="ObjectShortName">[1]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher_data_i[0]" type="logic">
+               <obj_property name="ElementShortName">[0]</obj_property>
+               <obj_property name="ObjectShortName">[0]</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/addr_reg_in" type="array">
+            <obj_property name="ElementShortName">addr_reg_in[3:0]</obj_property>
+            <obj_property name="ObjectShortName">addr_reg_in[3:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/is_addr_reg_rst" type="logic">
+            <obj_property name="ElementShortName">is_addr_reg_rst</obj_property>
+            <obj_property name="ObjectShortName">is_addr_reg_rst</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/is_addr_reg_req_ack" type="logic">
+            <obj_property name="ElementShortName">is_addr_reg_req_ack</obj_property>
+            <obj_property name="ObjectShortName">is_addr_reg_req_ack</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group16" type="group">
+      <obj_property name="label">Cipher</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher/mState" type="array">
+         <obj_property name="ElementShortName">mState[3:0]</obj_property>
+         <obj_property name="ObjectShortName">mState[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher/clk_i" type="logic">
+         <obj_property name="ElementShortName">clk_i</obj_property>
+         <obj_property name="ObjectShortName">clk_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher/resetn_i" type="logic">
+         <obj_property name="ElementShortName">resetn_i</obj_property>
+         <obj_property name="ObjectShortName">resetn_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher/request_i" type="logic">
+         <obj_property name="ElementShortName">request_i</obj_property>
+         <obj_property name="ObjectShortName">request_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher/ack_i" type="logic">
+         <obj_property name="ElementShortName">ack_i</obj_property>
+         <obj_property name="ObjectShortName">ack_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher/busy_o" type="logic">
+         <obj_property name="ElementShortName">busy_o</obj_property>
+         <obj_property name="ObjectShortName">busy_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher/valid_o" type="logic">
+         <obj_property name="ElementShortName">valid_o</obj_property>
+         <obj_property name="ObjectShortName">valid_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher/data_o" type="array">
+         <obj_property name="ElementShortName">data_o[127:0]</obj_property>
+         <obj_property name="ObjectShortName">data_o[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher/data_i" type="array">
+         <obj_property name="ElementShortName">data_i[127:0]</obj_property>
+         <obj_property name="ObjectShortName">data_i[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher/result_formed" type="logic">
+         <obj_property name="ElementShortName">result_formed</obj_property>
+         <obj_property name="ObjectShortName">result_formed</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher/nonlinear_request" type="logic">
+         <obj_property name="ElementShortName">nonlinear_request</obj_property>
+         <obj_property name="ObjectShortName">nonlinear_request</obj_property>
+      </wvobject>
+      <wvobject fp_name="group582" type="group">
+         <obj_property name="label">Interim_results</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher/current_data" type="array">
+            <obj_property name="ElementShortName">current_data[127:0]</obj_property>
+            <obj_property name="ObjectShortName">current_data[127:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher/trial_num_ff" type="array">
+            <obj_property name="ElementShortName">trial_num_ff[3:0]</obj_property>
+            <obj_property name="ObjectShortName">trial_num_ff[3:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher/key_overlay_result" type="array">
+            <obj_property name="ElementShortName">key_overlay_result[127:0]</obj_property>
+            <obj_property name="ObjectShortName">key_overlay_result[127:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher/linear_overlay_result" type="array">
+            <obj_property name="ElementShortName">linear_overlay_result[15:0][7:0]</obj_property>
+            <obj_property name="ObjectShortName">linear_overlay_result[15:0][7:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher/nonlinear_overlay_i" type="array">
+            <obj_property name="ElementShortName">nonlinear_overlay_i[15:0][7:0]</obj_property>
+            <obj_property name="ObjectShortName">nonlinear_overlay_i[15:0][7:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher/nonlinear_overlay_result" type="array">
+            <obj_property name="ElementShortName">nonlinear_overlay_result[127:0]</obj_property>
+            <obj_property name="ObjectShortName">nonlinear_overlay_result[127:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group581" type="group">
+         <obj_property name="label">Tables</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher/key_mem" type="array">
+            <obj_property name="ElementShortName">key_mem[0:9][127:0]</obj_property>
+            <obj_property name="ObjectShortName">key_mem[0:9][127:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher/S_box_mem" type="array">
+            <obj_property name="ElementShortName">S_box_mem[0:255][7:0]</obj_property>
+            <obj_property name="ObjectShortName">S_box_mem[0:255][7:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher/L_mul_16_mem" type="array">
+            <obj_property name="ElementShortName">L_mul_16_mem[0:255][7:0]</obj_property>
+            <obj_property name="ObjectShortName">L_mul_16_mem[0:255][7:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher/L_mul_32_mem" type="array">
+            <obj_property name="ElementShortName">L_mul_32_mem[0:255][7:0]</obj_property>
+            <obj_property name="ObjectShortName">L_mul_32_mem[0:255][7:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher/L_mul_133_mem" type="array">
+            <obj_property name="ElementShortName">L_mul_133_mem[0:255][7:0]</obj_property>
+            <obj_property name="ObjectShortName">L_mul_133_mem[0:255][7:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher/L_mul_148_mem" type="array">
+            <obj_property name="ElementShortName">L_mul_148_mem[0:255][7:0]</obj_property>
+            <obj_property name="ObjectShortName">L_mul_148_mem[0:255][7:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher/L_mul_192_mem" type="array">
+            <obj_property name="ElementShortName">L_mul_192_mem[0:255][7:0]</obj_property>
+            <obj_property name="ObjectShortName">L_mul_192_mem[0:255][7:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher/L_mul_194_mem" type="array">
+            <obj_property name="ElementShortName">L_mul_194_mem[0:255][7:0]</obj_property>
+            <obj_property name="ObjectShortName">L_mul_194_mem[0:255][7:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_kuznechik_cipher_apb_wrapper/DUT/cipher/L_mul_251_mem" type="array">
+            <obj_property name="ElementShortName">L_mul_251_mem[0:255][7:0]</obj_property>
+            <obj_property name="ObjectShortName">L_mul_251_mem[0:255][7:0]</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>
