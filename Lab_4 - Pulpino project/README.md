@@ -9,7 +9,9 @@ Project based on open-source system based on RISC-V — [Pulpino](https://github
 1. Create Vivado project `vivado -mode batch -nojournal -nolog -source vivado_project.tcl`
 2. Build boot code `/sw/boot_code/ >> make`
 3. Build application code `/sw/test_sw/ >> make`
-3. Create bitstream in Vivado
+4. Create bitstream in Vivado
+5. Program the board and connect to the PC
+6. Run `python ./com_kuznechik.py` to test the application (change COM port in the script if needed)
 
 ### Software
 
