@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "uart.h": "c",
+        "gpio.h": "c",
+        "pulpino.h": "c",
+        "array": "c",
+        "string": "c",
+        "string_view": "c"
+    }
+}
