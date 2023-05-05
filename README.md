@@ -19,9 +19,11 @@
 <div style="display: flex; justify-content: center;">
     <img src="readme/lab3.png" width="620px"></img>
 </div>
-<div style="display: flex; justify-content: center; font-style: italic;">APB bus with testbench</div>
+<div style="display: flex; justify-content: center; font-style: italic;">Universal Makefile</div>
 
-## ❌ [Lab_4 Pulpino project](https://github.com/IlyaChichkov/Verilog_Labs_2023/tree/master/Lab_4%20-%20Pulpino%20project)
+## ✅ [Lab_4 Pulpino project](https://github.com/IlyaChichkov/Verilog_Labs_2023/tree/master/Lab_4%20-%20Pulpino%20project)
 
-
-**State:** In Work
+<div style="display: flex; justify-content: center;">
+    <img src="readme/lab4.png" width="620px"></img>
+</div>
+<div style="display: flex; justify-content: center; font-style: italic;">Pulpino RTL and program diagrams</div>
