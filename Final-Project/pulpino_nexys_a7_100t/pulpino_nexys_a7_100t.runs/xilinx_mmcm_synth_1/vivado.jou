@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue May 16 12:46:27 2023
+# Process ID: 47044
+# Current directory: /home/student_22/Documents/final_project/pulpino_students/pulpino_nexys_a7_100t/pulpino_nexys_a7_100t.runs/xilinx_mmcm_synth_1
+# Command line: vivado -log xilinx_mmcm.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source xilinx_mmcm.tcl
+# Log file: /home/student_22/Documents/final_project/pulpino_students/pulpino_nexys_a7_100t/pulpino_nexys_a7_100t.runs/xilinx_mmcm_synth_1/xilinx_mmcm.vds
+# Journal file: /home/student_22/Documents/final_project/pulpino_students/pulpino_nexys_a7_100t/pulpino_nexys_a7_100t.runs/xilinx_mmcm_synth_1/vivado.jou
+#-----------------------------------------------------------
+source xilinx_mmcm.tcl -notrace

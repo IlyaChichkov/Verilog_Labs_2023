@@ -1,0 +1,970 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="pulpino_nexys_a7_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="pulpino_nexys_a7_tb" />
+            <top_module name="riscv_defines" />
+            <top_module name="zeroriscy_defines" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="700000000fs"></ZoomStartTime>
+      <ZoomEndTime time="1375000001fs"></ZoomEndTime>
+      <Cursor1Time time="704643000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="285"></NameColumnWidth>
+      <ValueColumnWidth column_width="250"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="13" />
+   <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/clk100mhz">
+      <obj_property name="ElementShortName">clk100mhz</obj_property>
+      <obj_property name="ObjectShortName">clk100mhz</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/sw">
+      <obj_property name="ElementShortName">sw[15:0]</obj_property>
+      <obj_property name="ObjectShortName">sw[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/led">
+      <obj_property name="ElementShortName">led[15:0]</obj_property>
+      <obj_property name="ObjectShortName">led[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/cpu_resetn">
+      <obj_property name="ElementShortName">cpu_resetn</obj_property>
+      <obj_property name="ObjectShortName">cpu_resetn</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/ja">
+      <obj_property name="ElementShortName">ja[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ja[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/uart_rxd_out">
+      <obj_property name="ElementShortName">uart_rxd_out</obj_property>
+      <obj_property name="ObjectShortName">uart_rxd_out</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/uart_txd_in">
+      <obj_property name="ElementShortName">uart_txd_in</obj_property>
+      <obj_property name="ObjectShortName">uart_txd_in</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/apb_prdata_o">
+      <obj_property name="ElementShortName">apb_prdata_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">apb_prdata_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group8">
+      <obj_property name="label">USB</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/clk_i">
+         <obj_property name="ElementShortName">clk_i</obj_property>
+         <obj_property name="ObjectShortName">clk_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/rstn_i">
+         <obj_property name="ElementShortName">rstn_i</obj_property>
+         <obj_property name="ObjectShortName">rstn_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/apb_paddr_i">
+         <obj_property name="ElementShortName">apb_paddr_i[11:0]</obj_property>
+         <obj_property name="ObjectShortName">apb_paddr_i[11:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/apb_pwdata_i">
+         <obj_property name="ElementShortName">apb_pwdata_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">apb_pwdata_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/apb_pwrite_i">
+         <obj_property name="ElementShortName">apb_pwrite_i</obj_property>
+         <obj_property name="ObjectShortName">apb_pwrite_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/apb_psel_i">
+         <obj_property name="ElementShortName">apb_psel_i</obj_property>
+         <obj_property name="ObjectShortName">apb_psel_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/apb_penable_i">
+         <obj_property name="ElementShortName">apb_penable_i</obj_property>
+         <obj_property name="ObjectShortName">apb_penable_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/apb_prdata_o">
+         <obj_property name="ElementShortName">apb_prdata_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">apb_prdata_o[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/apb_pready_o">
+         <obj_property name="ElementShortName">apb_pready_o</obj_property>
+         <obj_property name="ObjectShortName">apb_pready_o</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/apb_pslverr_o">
+         <obj_property name="ElementShortName">apb_pslverr_o</obj_property>
+         <obj_property name="ObjectShortName">apb_pslverr_o</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/ps2_clk">
+         <obj_property name="ElementShortName">ps2_clk</obj_property>
+         <obj_property name="ObjectShortName">ps2_clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/ps2_data">
+         <obj_property name="ElementShortName">ps2_data</obj_property>
+         <obj_property name="ObjectShortName">ps2_data</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/apb_write">
+         <obj_property name="ElementShortName">apb_write</obj_property>
+         <obj_property name="ObjectShortName">apb_write</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/apb_read">
+         <obj_property name="ElementShortName">apb_read</obj_property>
+         <obj_property name="ObjectShortName">apb_read</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/apb_sel_rst">
+         <obj_property name="ElementShortName">apb_sel_rst</obj_property>
+         <obj_property name="ObjectShortName">apb_sel_rst</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/apb_sel_req">
+         <obj_property name="ElementShortName">apb_sel_req</obj_property>
+         <obj_property name="ObjectShortName">apb_sel_req</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/apb_sel_ack">
+         <obj_property name="ElementShortName">apb_sel_ack</obj_property>
+         <obj_property name="ObjectShortName">apb_sel_ack</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/apb_sel_valid">
+         <obj_property name="ElementShortName">apb_sel_valid</obj_property>
+         <obj_property name="ObjectShortName">apb_sel_valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/apb_sel_busy">
+         <obj_property name="ElementShortName">apb_sel_busy</obj_property>
+         <obj_property name="ObjectShortName">apb_sel_busy</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/apb_sel_data_out">
+         <obj_property name="ElementShortName">apb_sel_data_out</obj_property>
+         <obj_property name="ObjectShortName">apb_sel_data_out</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/cipher_rstn">
+         <obj_property name="ElementShortName">cipher_rstn</obj_property>
+         <obj_property name="ObjectShortName">cipher_rstn</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/data_valid_flag">
+         <obj_property name="ElementShortName">data_valid_flag</obj_property>
+         <obj_property name="ObjectShortName">data_valid_flag</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/DATA_OUT">
+         <obj_property name="ElementShortName">DATA_OUT[7:0]</obj_property>
+         <obj_property name="ObjectShortName">DATA_OUT[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/data_await_en">
+         <obj_property name="ElementShortName">data_await_en</obj_property>
+         <obj_property name="ObjectShortName">data_await_en</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/ctrl_rst_ff">
+         <obj_property name="ElementShortName">ctrl_rst_ff</obj_property>
+         <obj_property name="ObjectShortName">ctrl_rst_ff</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/ctrl_rst_en">
+         <obj_property name="ElementShortName">ctrl_rst_en</obj_property>
+         <obj_property name="ObjectShortName">ctrl_rst_en</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/ctrl_rst_next">
+         <obj_property name="ElementShortName">ctrl_rst_next</obj_property>
+         <obj_property name="ObjectShortName">ctrl_rst_next</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/ctrl_req_ff">
+         <obj_property name="ElementShortName">ctrl_req_ff</obj_property>
+         <obj_property name="ObjectShortName">ctrl_req_ff</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/ctrl_req_en">
+         <obj_property name="ElementShortName">ctrl_req_en</obj_property>
+         <obj_property name="ObjectShortName">ctrl_req_en</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/ctrl_req_next">
+         <obj_property name="ElementShortName">ctrl_req_next</obj_property>
+         <obj_property name="ObjectShortName">ctrl_req_next</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/ctrl_ack_ff">
+         <obj_property name="ElementShortName">ctrl_ack_ff</obj_property>
+         <obj_property name="ObjectShortName">ctrl_ack_ff</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/ctrl_ack_en">
+         <obj_property name="ElementShortName">ctrl_ack_en</obj_property>
+         <obj_property name="ObjectShortName">ctrl_ack_en</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/ctrl_ack_next">
+         <obj_property name="ElementShortName">ctrl_ack_next</obj_property>
+         <obj_property name="ObjectShortName">ctrl_ack_next</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/apb_ready_ff">
+         <obj_property name="ElementShortName">apb_ready_ff</obj_property>
+         <obj_property name="ObjectShortName">apb_ready_ff</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/apb_ready_next">
+         <obj_property name="ElementShortName">apb_ready_next</obj_property>
+         <obj_property name="ObjectShortName">apb_ready_next</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/apb_ready_en">
+         <obj_property name="ElementShortName">apb_ready_en</obj_property>
+         <obj_property name="ObjectShortName">apb_ready_en</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/apb_err_ff">
+         <obj_property name="ElementShortName">apb_err_ff</obj_property>
+         <obj_property name="ObjectShortName">apb_err_ff</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/apb_err_next">
+         <obj_property name="ElementShortName">apb_err_next</obj_property>
+         <obj_property name="ObjectShortName">apb_err_next</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/apb_err_en">
+         <obj_property name="ElementShortName">apb_err_en</obj_property>
+         <obj_property name="ObjectShortName">apb_err_en</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/apb_dout_ff">
+         <obj_property name="ElementShortName">apb_dout_ff[31:0]</obj_property>
+         <obj_property name="ObjectShortName">apb_dout_ff[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/apb_dout_next">
+         <obj_property name="ElementShortName">apb_dout_next[31:0]</obj_property>
+         <obj_property name="ObjectShortName">apb_dout_next[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/apb_dout_en">
+         <obj_property name="ElementShortName">apb_dout_en</obj_property>
+         <obj_property name="ObjectShortName">apb_dout_en</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/APB_ADDR_WIDTH">
+         <obj_property name="ElementShortName">APB_ADDR_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">APB_ADDR_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/APB_DATA_WIDTH">
+         <obj_property name="ElementShortName">APB_DATA_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">APB_DATA_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/ADDR_RST">
+         <obj_property name="ElementShortName">ADDR_RST[11:0]</obj_property>
+         <obj_property name="ObjectShortName">ADDR_RST[11:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/ADDR_REQ">
+         <obj_property name="ElementShortName">ADDR_REQ[11:0]</obj_property>
+         <obj_property name="ObjectShortName">ADDR_REQ[11:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/ADDR_ACK">
+         <obj_property name="ElementShortName">ADDR_ACK[11:0]</obj_property>
+         <obj_property name="ObjectShortName">ADDR_ACK[11:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/ADDR_VALID">
+         <obj_property name="ElementShortName">ADDR_VALID[11:0]</obj_property>
+         <obj_property name="ObjectShortName">ADDR_VALID[11:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/ADDR_BUSY">
+         <obj_property name="ElementShortName">ADDR_BUSY[11:0]</obj_property>
+         <obj_property name="ObjectShortName">ADDR_BUSY[11:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/ADDR_DATA_OUT">
+         <obj_property name="ElementShortName">ADDR_DATA_OUT[11:0]</obj_property>
+         <obj_property name="ObjectShortName">ADDR_DATA_OUT[11:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group473">
+      <obj_property name="label">SP2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/PS2/resetn_i">
+         <obj_property name="ElementShortName">resetn_i</obj_property>
+         <obj_property name="ObjectShortName">resetn_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/PS2/kclk">
+         <obj_property name="ElementShortName">kclk</obj_property>
+         <obj_property name="ObjectShortName">kclk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/PS2/kdata">
+         <obj_property name="ElementShortName">kdata</obj_property>
+         <obj_property name="ObjectShortName">kdata</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/PS2/data_out">
+         <obj_property name="ElementShortName">data_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/PS2/data_valid_flag">
+         <obj_property name="ElementShortName">data_valid_flag</obj_property>
+         <obj_property name="ObjectShortName">data_valid_flag</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/PS2/kclkf">
+         <obj_property name="ElementShortName">kclkf</obj_property>
+         <obj_property name="ObjectShortName">kclkf</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/PS2/kdataf">
+         <obj_property name="ElementShortName">kdataf</obj_property>
+         <obj_property name="ObjectShortName">kdataf</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/PS2/datacur">
+         <obj_property name="ElementShortName">datacur[7:0]</obj_property>
+         <obj_property name="ObjectShortName">datacur[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/PS2/dataprev">
+         <obj_property name="ElementShortName">dataprev[7:0]</obj_property>
+         <obj_property name="ObjectShortName">dataprev[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/PS2/cnt">
+         <obj_property name="ElementShortName">cnt[3:0]</obj_property>
+         <obj_property name="ObjectShortName">cnt[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/PS2/flag">
+         <obj_property name="ElementShortName">flag</obj_property>
+         <obj_property name="ObjectShortName">flag</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group625">
+      <obj_property name="label">Top</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/clk">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/rst_n">
+         <obj_property name="ElementShortName">rst_n</obj_property>
+         <obj_property name="ObjectShortName">rst_n</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/clk_sel_i">
+         <obj_property name="ElementShortName">clk_sel_i</obj_property>
+         <obj_property name="ObjectShortName">clk_sel_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/clk_standalone_i">
+         <obj_property name="ElementShortName">clk_standalone_i</obj_property>
+         <obj_property name="ObjectShortName">clk_standalone_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/testmode_i">
+         <obj_property name="ElementShortName">testmode_i</obj_property>
+         <obj_property name="ObjectShortName">testmode_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/fetch_enable_i">
+         <obj_property name="ElementShortName">fetch_enable_i</obj_property>
+         <obj_property name="ObjectShortName">fetch_enable_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/scan_enable_i">
+         <obj_property name="ElementShortName">scan_enable_i</obj_property>
+         <obj_property name="ObjectShortName">scan_enable_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/spi_clk_i">
+         <obj_property name="ElementShortName">spi_clk_i</obj_property>
+         <obj_property name="ObjectShortName">spi_clk_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/spi_cs_i">
+         <obj_property name="ElementShortName">spi_cs_i</obj_property>
+         <obj_property name="ObjectShortName">spi_cs_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/spi_mode_o">
+         <obj_property name="ElementShortName">spi_mode_o[1:0]</obj_property>
+         <obj_property name="ObjectShortName">spi_mode_o[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/spi_sdo0_o">
+         <obj_property name="ElementShortName">spi_sdo0_o</obj_property>
+         <obj_property name="ObjectShortName">spi_sdo0_o</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/spi_sdo1_o">
+         <obj_property name="ElementShortName">spi_sdo1_o</obj_property>
+         <obj_property name="ObjectShortName">spi_sdo1_o</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/spi_sdo2_o">
+         <obj_property name="ElementShortName">spi_sdo2_o</obj_property>
+         <obj_property name="ObjectShortName">spi_sdo2_o</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/spi_sdo3_o">
+         <obj_property name="ElementShortName">spi_sdo3_o</obj_property>
+         <obj_property name="ObjectShortName">spi_sdo3_o</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/spi_sdi0_i">
+         <obj_property name="ElementShortName">spi_sdi0_i</obj_property>
+         <obj_property name="ObjectShortName">spi_sdi0_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/spi_sdi1_i">
+         <obj_property name="ElementShortName">spi_sdi1_i</obj_property>
+         <obj_property name="ObjectShortName">spi_sdi1_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/spi_sdi2_i">
+         <obj_property name="ElementShortName">spi_sdi2_i</obj_property>
+         <obj_property name="ObjectShortName">spi_sdi2_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/spi_sdi3_i">
+         <obj_property name="ElementShortName">spi_sdi3_i</obj_property>
+         <obj_property name="ObjectShortName">spi_sdi3_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/spi_master_clk_o">
+         <obj_property name="ElementShortName">spi_master_clk_o</obj_property>
+         <obj_property name="ObjectShortName">spi_master_clk_o</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/spi_master_csn0_o">
+         <obj_property name="ElementShortName">spi_master_csn0_o</obj_property>
+         <obj_property name="ObjectShortName">spi_master_csn0_o</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/spi_master_csn1_o">
+         <obj_property name="ElementShortName">spi_master_csn1_o</obj_property>
+         <obj_property name="ObjectShortName">spi_master_csn1_o</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/spi_master_csn2_o">
+         <obj_property name="ElementShortName">spi_master_csn2_o</obj_property>
+         <obj_property name="ObjectShortName">spi_master_csn2_o</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/spi_master_csn3_o">
+         <obj_property name="ElementShortName">spi_master_csn3_o</obj_property>
+         <obj_property name="ObjectShortName">spi_master_csn3_o</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/spi_master_mode_o">
+         <obj_property name="ElementShortName">spi_master_mode_o[1:0]</obj_property>
+         <obj_property name="ObjectShortName">spi_master_mode_o[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/spi_master_sdo0_o">
+         <obj_property name="ElementShortName">spi_master_sdo0_o</obj_property>
+         <obj_property name="ObjectShortName">spi_master_sdo0_o</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/spi_master_sdo1_o">
+         <obj_property name="ElementShortName">spi_master_sdo1_o</obj_property>
+         <obj_property name="ObjectShortName">spi_master_sdo1_o</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/spi_master_sdo2_o">
+         <obj_property name="ElementShortName">spi_master_sdo2_o</obj_property>
+         <obj_property name="ObjectShortName">spi_master_sdo2_o</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/spi_master_sdo3_o">
+         <obj_property name="ElementShortName">spi_master_sdo3_o</obj_property>
+         <obj_property name="ObjectShortName">spi_master_sdo3_o</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/spi_master_sdi0_i">
+         <obj_property name="ElementShortName">spi_master_sdi0_i</obj_property>
+         <obj_property name="ObjectShortName">spi_master_sdi0_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/spi_master_sdi1_i">
+         <obj_property name="ElementShortName">spi_master_sdi1_i</obj_property>
+         <obj_property name="ObjectShortName">spi_master_sdi1_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/spi_master_sdi2_i">
+         <obj_property name="ElementShortName">spi_master_sdi2_i</obj_property>
+         <obj_property name="ObjectShortName">spi_master_sdi2_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/spi_master_sdi3_i">
+         <obj_property name="ElementShortName">spi_master_sdi3_i</obj_property>
+         <obj_property name="ObjectShortName">spi_master_sdi3_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/scl_pad_i">
+         <obj_property name="ElementShortName">scl_pad_i</obj_property>
+         <obj_property name="ObjectShortName">scl_pad_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/scl_pad_o">
+         <obj_property name="ElementShortName">scl_pad_o</obj_property>
+         <obj_property name="ObjectShortName">scl_pad_o</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/scl_padoen_o">
+         <obj_property name="ElementShortName">scl_padoen_o</obj_property>
+         <obj_property name="ObjectShortName">scl_padoen_o</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/sda_pad_i">
+         <obj_property name="ElementShortName">sda_pad_i</obj_property>
+         <obj_property name="ObjectShortName">sda_pad_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/sda_pad_o">
+         <obj_property name="ElementShortName">sda_pad_o</obj_property>
+         <obj_property name="ObjectShortName">sda_pad_o</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/sda_padoen_o">
+         <obj_property name="ElementShortName">sda_padoen_o</obj_property>
+         <obj_property name="ObjectShortName">sda_padoen_o</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/uart_tx">
+         <obj_property name="ElementShortName">uart_tx</obj_property>
+         <obj_property name="ObjectShortName">uart_tx</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/uart_rx">
+         <obj_property name="ElementShortName">uart_rx</obj_property>
+         <obj_property name="ObjectShortName">uart_rx</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/uart_rts">
+         <obj_property name="ElementShortName">uart_rts</obj_property>
+         <obj_property name="ObjectShortName">uart_rts</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/uart_dtr">
+         <obj_property name="ElementShortName">uart_dtr</obj_property>
+         <obj_property name="ObjectShortName">uart_dtr</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/uart_cts">
+         <obj_property name="ElementShortName">uart_cts</obj_property>
+         <obj_property name="ObjectShortName">uart_cts</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/uart_dsr">
+         <obj_property name="ElementShortName">uart_dsr</obj_property>
+         <obj_property name="ObjectShortName">uart_dsr</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/gpio_in">
+         <obj_property name="ElementShortName">gpio_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">gpio_in[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/gpio_out">
+         <obj_property name="ElementShortName">gpio_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">gpio_out[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/gpio_dir">
+         <obj_property name="ElementShortName">gpio_dir[31:0]</obj_property>
+         <obj_property name="ObjectShortName">gpio_dir[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/gpio_padcfg">
+         <obj_property name="ElementShortName">gpio_padcfg[31:0][5:0]</obj_property>
+         <obj_property name="ObjectShortName">gpio_padcfg[31:0][5:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/ps2_clk">
+         <obj_property name="ElementShortName">ps2_clk</obj_property>
+         <obj_property name="ObjectShortName">ps2_clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/ps2_data">
+         <obj_property name="ElementShortName">ps2_data</obj_property>
+         <obj_property name="ObjectShortName">ps2_data</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/tck_i">
+         <obj_property name="ElementShortName">tck_i</obj_property>
+         <obj_property name="ObjectShortName">tck_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/trstn_i">
+         <obj_property name="ElementShortName">trstn_i</obj_property>
+         <obj_property name="ObjectShortName">trstn_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/tms_i">
+         <obj_property name="ElementShortName">tms_i</obj_property>
+         <obj_property name="ObjectShortName">tms_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/tdi_i">
+         <obj_property name="ElementShortName">tdi_i</obj_property>
+         <obj_property name="ObjectShortName">tdi_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/tdo_o">
+         <obj_property name="ElementShortName">tdo_o</obj_property>
+         <obj_property name="ObjectShortName">tdo_o</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/pad_cfg_o">
+         <obj_property name="ElementShortName">pad_cfg_o[31:0][5:0]</obj_property>
+         <obj_property name="ObjectShortName">pad_cfg_o[31:0][5:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/pad_mux_o">
+         <obj_property name="ElementShortName">pad_mux_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pad_mux_o[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/clk_int">
+         <obj_property name="ElementShortName">clk_int</obj_property>
+         <obj_property name="ObjectShortName">clk_int</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/fetch_enable_int">
+         <obj_property name="ElementShortName">fetch_enable_int</obj_property>
+         <obj_property name="ObjectShortName">fetch_enable_int</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/core_busy_int">
+         <obj_property name="ElementShortName">core_busy_int</obj_property>
+         <obj_property name="ObjectShortName">core_busy_int</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/clk_gate_core_int">
+         <obj_property name="ElementShortName">clk_gate_core_int</obj_property>
+         <obj_property name="ObjectShortName">clk_gate_core_int</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/irq_to_core_int">
+         <obj_property name="ElementShortName">irq_to_core_int[31:0]</obj_property>
+         <obj_property name="ObjectShortName">irq_to_core_int[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/lock_fll_int">
+         <obj_property name="ElementShortName">lock_fll_int</obj_property>
+         <obj_property name="ObjectShortName">lock_fll_int</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/cfgreq_fll_int">
+         <obj_property name="ElementShortName">cfgreq_fll_int</obj_property>
+         <obj_property name="ObjectShortName">cfgreq_fll_int</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/cfgack_fll_int">
+         <obj_property name="ElementShortName">cfgack_fll_int</obj_property>
+         <obj_property name="ObjectShortName">cfgack_fll_int</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/cfgad_fll_int">
+         <obj_property name="ElementShortName">cfgad_fll_int[1:0]</obj_property>
+         <obj_property name="ObjectShortName">cfgad_fll_int[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/cfgd_fll_int">
+         <obj_property name="ElementShortName">cfgd_fll_int[31:0]</obj_property>
+         <obj_property name="ObjectShortName">cfgd_fll_int[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/cfgq_fll_int">
+         <obj_property name="ElementShortName">cfgq_fll_int[31:0]</obj_property>
+         <obj_property name="ObjectShortName">cfgq_fll_int[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/cfgweb_n_fll_int">
+         <obj_property name="ElementShortName">cfgweb_n_fll_int</obj_property>
+         <obj_property name="ObjectShortName">cfgweb_n_fll_int</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/rstn_int">
+         <obj_property name="ElementShortName">rstn_int</obj_property>
+         <obj_property name="ObjectShortName">rstn_int</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/boot_addr_int">
+         <obj_property name="ElementShortName">boot_addr_int[31:0]</obj_property>
+         <obj_property name="ObjectShortName">boot_addr_int[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/USE_ZERO_RISCY">
+         <obj_property name="ElementShortName">USE_ZERO_RISCY[31:0]</obj_property>
+         <obj_property name="ObjectShortName">USE_ZERO_RISCY[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/RISCY_RV32F">
+         <obj_property name="ElementShortName">RISCY_RV32F[31:0]</obj_property>
+         <obj_property name="ObjectShortName">RISCY_RV32F[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/ZERO_RV32M">
+         <obj_property name="ElementShortName">ZERO_RV32M[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ZERO_RV32M[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/ZERO_RV32E">
+         <obj_property name="ElementShortName">ZERO_RV32E[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ZERO_RV32E[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/DATA_RAM_INIT_FILE">
+         <obj_property name="ElementShortName">DATA_RAM_INIT_FILE[159:0]</obj_property>
+         <obj_property name="ObjectShortName">DATA_RAM_INIT_FILE[159:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/INSTR_RAM_INIT_FILE">
+         <obj_property name="ElementShortName">INSTR_RAM_INIT_FILE[159:0]</obj_property>
+         <obj_property name="ObjectShortName">INSTR_RAM_INIT_FILE[159:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group710">
+      <obj_property name="label">Peripherals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/clk_i">
+         <obj_property name="ElementShortName">clk_i</obj_property>
+         <obj_property name="ObjectShortName">clk_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/rst_n">
+         <obj_property name="ElementShortName">rst_n</obj_property>
+         <obj_property name="ObjectShortName">rst_n</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/spi_clk_i">
+         <obj_property name="ElementShortName">spi_clk_i</obj_property>
+         <obj_property name="ObjectShortName">spi_clk_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/testmode_i">
+         <obj_property name="ElementShortName">testmode_i</obj_property>
+         <obj_property name="ObjectShortName">testmode_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/spi_cs_i">
+         <obj_property name="ElementShortName">spi_cs_i</obj_property>
+         <obj_property name="ObjectShortName">spi_cs_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/spi_mode_o">
+         <obj_property name="ElementShortName">spi_mode_o[1:0]</obj_property>
+         <obj_property name="ObjectShortName">spi_mode_o[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/spi_sdo0_o">
+         <obj_property name="ElementShortName">spi_sdo0_o</obj_property>
+         <obj_property name="ObjectShortName">spi_sdo0_o</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/spi_sdo1_o">
+         <obj_property name="ElementShortName">spi_sdo1_o</obj_property>
+         <obj_property name="ObjectShortName">spi_sdo1_o</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/spi_sdo2_o">
+         <obj_property name="ElementShortName">spi_sdo2_o</obj_property>
+         <obj_property name="ObjectShortName">spi_sdo2_o</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/spi_sdo3_o">
+         <obj_property name="ElementShortName">spi_sdo3_o</obj_property>
+         <obj_property name="ObjectShortName">spi_sdo3_o</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/spi_sdi0_i">
+         <obj_property name="ElementShortName">spi_sdi0_i</obj_property>
+         <obj_property name="ObjectShortName">spi_sdi0_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/spi_sdi1_i">
+         <obj_property name="ElementShortName">spi_sdi1_i</obj_property>
+         <obj_property name="ObjectShortName">spi_sdi1_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/spi_sdi2_i">
+         <obj_property name="ElementShortName">spi_sdi2_i</obj_property>
+         <obj_property name="ObjectShortName">spi_sdi2_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/spi_sdi3_i">
+         <obj_property name="ElementShortName">spi_sdi3_i</obj_property>
+         <obj_property name="ObjectShortName">spi_sdi3_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/uart_tx">
+         <obj_property name="ElementShortName">uart_tx</obj_property>
+         <obj_property name="ObjectShortName">uart_tx</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/uart_rx">
+         <obj_property name="ElementShortName">uart_rx</obj_property>
+         <obj_property name="ObjectShortName">uart_rx</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/uart_rts">
+         <obj_property name="ElementShortName">uart_rts</obj_property>
+         <obj_property name="ObjectShortName">uart_rts</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/uart_dtr">
+         <obj_property name="ElementShortName">uart_dtr</obj_property>
+         <obj_property name="ObjectShortName">uart_dtr</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/uart_cts">
+         <obj_property name="ElementShortName">uart_cts</obj_property>
+         <obj_property name="ObjectShortName">uart_cts</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/uart_dsr">
+         <obj_property name="ElementShortName">uart_dsr</obj_property>
+         <obj_property name="ObjectShortName">uart_dsr</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/ps2_clk">
+         <obj_property name="ElementShortName">ps2_clk</obj_property>
+         <obj_property name="ObjectShortName">ps2_clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/ps2_data">
+         <obj_property name="ElementShortName">ps2_data</obj_property>
+         <obj_property name="ObjectShortName">ps2_data</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/spi_master_clk">
+         <obj_property name="ElementShortName">spi_master_clk</obj_property>
+         <obj_property name="ObjectShortName">spi_master_clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/spi_master_csn0">
+         <obj_property name="ElementShortName">spi_master_csn0</obj_property>
+         <obj_property name="ObjectShortName">spi_master_csn0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/spi_master_csn1">
+         <obj_property name="ElementShortName">spi_master_csn1</obj_property>
+         <obj_property name="ObjectShortName">spi_master_csn1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/spi_master_csn2">
+         <obj_property name="ElementShortName">spi_master_csn2</obj_property>
+         <obj_property name="ObjectShortName">spi_master_csn2</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/spi_master_csn3">
+         <obj_property name="ElementShortName">spi_master_csn3</obj_property>
+         <obj_property name="ObjectShortName">spi_master_csn3</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/spi_master_mode">
+         <obj_property name="ElementShortName">spi_master_mode[1:0]</obj_property>
+         <obj_property name="ObjectShortName">spi_master_mode[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/spi_master_sdo0">
+         <obj_property name="ElementShortName">spi_master_sdo0</obj_property>
+         <obj_property name="ObjectShortName">spi_master_sdo0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/spi_master_sdo1">
+         <obj_property name="ElementShortName">spi_master_sdo1</obj_property>
+         <obj_property name="ObjectShortName">spi_master_sdo1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/spi_master_sdo2">
+         <obj_property name="ElementShortName">spi_master_sdo2</obj_property>
+         <obj_property name="ObjectShortName">spi_master_sdo2</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/spi_master_sdo3">
+         <obj_property name="ElementShortName">spi_master_sdo3</obj_property>
+         <obj_property name="ObjectShortName">spi_master_sdo3</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/spi_master_sdi0">
+         <obj_property name="ElementShortName">spi_master_sdi0</obj_property>
+         <obj_property name="ObjectShortName">spi_master_sdi0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/spi_master_sdi1">
+         <obj_property name="ElementShortName">spi_master_sdi1</obj_property>
+         <obj_property name="ObjectShortName">spi_master_sdi1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/spi_master_sdi2">
+         <obj_property name="ElementShortName">spi_master_sdi2</obj_property>
+         <obj_property name="ObjectShortName">spi_master_sdi2</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/spi_master_sdi3">
+         <obj_property name="ElementShortName">spi_master_sdi3</obj_property>
+         <obj_property name="ObjectShortName">spi_master_sdi3</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/scl_pad_i">
+         <obj_property name="ElementShortName">scl_pad_i</obj_property>
+         <obj_property name="ObjectShortName">scl_pad_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/scl_pad_o">
+         <obj_property name="ElementShortName">scl_pad_o</obj_property>
+         <obj_property name="ObjectShortName">scl_pad_o</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/scl_padoen_o">
+         <obj_property name="ElementShortName">scl_padoen_o</obj_property>
+         <obj_property name="ObjectShortName">scl_padoen_o</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/sda_pad_i">
+         <obj_property name="ElementShortName">sda_pad_i</obj_property>
+         <obj_property name="ObjectShortName">sda_pad_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/sda_pad_o">
+         <obj_property name="ElementShortName">sda_pad_o</obj_property>
+         <obj_property name="ObjectShortName">sda_pad_o</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/sda_padoen_o">
+         <obj_property name="ElementShortName">sda_padoen_o</obj_property>
+         <obj_property name="ObjectShortName">sda_padoen_o</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/gpio_in">
+         <obj_property name="ElementShortName">gpio_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">gpio_in[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/gpio_out">
+         <obj_property name="ElementShortName">gpio_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">gpio_out[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/gpio_dir">
+         <obj_property name="ElementShortName">gpio_dir[31:0]</obj_property>
+         <obj_property name="ObjectShortName">gpio_dir[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/gpio_padcfg">
+         <obj_property name="ElementShortName">gpio_padcfg[31:0][5:0]</obj_property>
+         <obj_property name="ObjectShortName">gpio_padcfg[31:0][5:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/core_busy_i">
+         <obj_property name="ElementShortName">core_busy_i</obj_property>
+         <obj_property name="ObjectShortName">core_busy_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/irq_o">
+         <obj_property name="ElementShortName">irq_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">irq_o[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/fetch_enable_i">
+         <obj_property name="ElementShortName">fetch_enable_i</obj_property>
+         <obj_property name="ObjectShortName">fetch_enable_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/fetch_enable_o">
+         <obj_property name="ElementShortName">fetch_enable_o</obj_property>
+         <obj_property name="ObjectShortName">fetch_enable_o</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/clk_gate_core_o">
+         <obj_property name="ElementShortName">clk_gate_core_o</obj_property>
+         <obj_property name="ObjectShortName">clk_gate_core_o</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/fll1_req_o">
+         <obj_property name="ElementShortName">fll1_req_o</obj_property>
+         <obj_property name="ObjectShortName">fll1_req_o</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/fll1_wrn_o">
+         <obj_property name="ElementShortName">fll1_wrn_o</obj_property>
+         <obj_property name="ObjectShortName">fll1_wrn_o</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/fll1_add_o">
+         <obj_property name="ElementShortName">fll1_add_o[1:0]</obj_property>
+         <obj_property name="ObjectShortName">fll1_add_o[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/fll1_wdata_o">
+         <obj_property name="ElementShortName">fll1_wdata_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">fll1_wdata_o[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/fll1_ack_i">
+         <obj_property name="ElementShortName">fll1_ack_i</obj_property>
+         <obj_property name="ObjectShortName">fll1_ack_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/fll1_rdata_i">
+         <obj_property name="ElementShortName">fll1_rdata_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">fll1_rdata_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/fll1_lock_i">
+         <obj_property name="ElementShortName">fll1_lock_i</obj_property>
+         <obj_property name="ObjectShortName">fll1_lock_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/pad_cfg_o">
+         <obj_property name="ElementShortName">pad_cfg_o[31:0][5:0]</obj_property>
+         <obj_property name="ObjectShortName">pad_cfg_o[31:0][5:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/pad_mux_o">
+         <obj_property name="ElementShortName">pad_mux_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pad_mux_o[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/boot_addr_o">
+         <obj_property name="ElementShortName">boot_addr_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">boot_addr_o[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/s_spim_event">
+         <obj_property name="ElementShortName">s_spim_event[1:0]</obj_property>
+         <obj_property name="ObjectShortName">s_spim_event[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/timer_irq">
+         <obj_property name="ElementShortName">timer_irq[3:0]</obj_property>
+         <obj_property name="ObjectShortName">timer_irq[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/peripheral_clock_gate_ctrl">
+         <obj_property name="ElementShortName">peripheral_clock_gate_ctrl[31:0]</obj_property>
+         <obj_property name="ObjectShortName">peripheral_clock_gate_ctrl[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/clk_int">
+         <obj_property name="ElementShortName">clk_int[31:0]</obj_property>
+         <obj_property name="ObjectShortName">clk_int[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/s_uart_event">
+         <obj_property name="ElementShortName">s_uart_event</obj_property>
+         <obj_property name="ObjectShortName">s_uart_event</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/i2c_event">
+         <obj_property name="ElementShortName">i2c_event</obj_property>
+         <obj_property name="ObjectShortName">i2c_event</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/s_gpio_event">
+         <obj_property name="ElementShortName">s_gpio_event</obj_property>
+         <obj_property name="ObjectShortName">s_gpio_event</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/AXI_ADDR_WIDTH">
+         <obj_property name="ElementShortName">AXI_ADDR_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">AXI_ADDR_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/AXI_DATA_WIDTH">
+         <obj_property name="ElementShortName">AXI_DATA_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">AXI_DATA_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/AXI_USER_WIDTH">
+         <obj_property name="ElementShortName">AXI_USER_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">AXI_USER_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/AXI_SLAVE_ID_WIDTH">
+         <obj_property name="ElementShortName">AXI_SLAVE_ID_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">AXI_SLAVE_ID_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/AXI_MASTER_ID_WIDTH">
+         <obj_property name="ElementShortName">AXI_MASTER_ID_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">AXI_MASTER_ID_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/ROM_START_ADDR">
+         <obj_property name="ElementShortName">ROM_START_ADDR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ROM_START_ADDR[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/APB_ADDR_WIDTH">
+         <obj_property name="ElementShortName">APB_ADDR_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">APB_ADDR_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/APB_NUM_SLAVES">
+         <obj_property name="ElementShortName">APB_NUM_SLAVES[31:0]</obj_property>
+         <obj_property name="ObjectShortName">APB_NUM_SLAVES[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group797">
+      <obj_property name="label">Debouncer</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/PS2/debounce/clk">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/PS2/debounce/I0">
+         <obj_property name="ElementShortName">I0</obj_property>
+         <obj_property name="ObjectShortName">I0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/PS2/debounce/I1">
+         <obj_property name="ElementShortName">I1</obj_property>
+         <obj_property name="ObjectShortName">I1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/PS2/debounce/O0">
+         <obj_property name="ElementShortName">O0</obj_property>
+         <obj_property name="ObjectShortName">O0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/PS2/debounce/O1">
+         <obj_property name="ElementShortName">O1</obj_property>
+         <obj_property name="ObjectShortName">O1</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/PS2/debounce/cnt0">
+         <obj_property name="ElementShortName">cnt0[4:0]</obj_property>
+         <obj_property name="ObjectShortName">cnt0[4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/PS2/debounce/cnt1">
+         <obj_property name="ElementShortName">cnt1[4:0]</obj_property>
+         <obj_property name="ObjectShortName">cnt1[4:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/PS2/debounce/Iv0">
+         <obj_property name="ElementShortName">Iv0</obj_property>
+         <obj_property name="ObjectShortName">Iv0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pulpino_nexys_a7_tb/UUT/pulpino_inst/peripherals_i/apb_sp2_i/PS2/debounce/Iv1">
+         <obj_property name="ElementShortName">Iv1</obj_property>
+         <obj_property name="ObjectShortName">Iv1</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

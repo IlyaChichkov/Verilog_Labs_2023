@@ -27,3 +27,7 @@
     <img src="readme/lab4.png" width="620px"></img>
 </div>
 <div style="display: flex; justify-content: center; font-style: italic;">Pulpino RTL and program diagrams</div>
+
+## ⚠️ [Final Project](https://github.com/IlyaChichkov/Verilog_Labs_2023/tree/master/Final%20-%20Project)
+
+`Not completed yet`
