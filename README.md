@@ -28,6 +28,6 @@
 </div>
 <div style="display: flex; justify-content: center; font-style: italic;">Pulpino RTL and program diagrams</div>
 
-## ⚠️ [Final Project](https://github.com/IlyaChichkov/Verilog_Labs_2023/tree/master/Final%20-%20Project)
+## ⚠️ [Final Project](https://github.com/IlyaChichkov/Verilog_Labs_2023/tree/master/Final-Project)
 
 `Not completed yet`
